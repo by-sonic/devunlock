@@ -1,0 +1,15 @@
+{
+  "name": "devunlock",
+  "version": "0.1.0",
+  "description": "ИИ и dev-сервисы из России: проверка доступности (OpenAI, Claude, Gemini, Cursor, Copilot, Docker Hub, HashiCorp) и умный прокси — ИИ через VPN, остальное напрямую",
+  "type": "module",
+  "bin": { "devunlock": "src/cli.js" },
+  "files": ["src", "README.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "keywords": ["openai", "claude", "gemini", "cursor", "copilot", "proxy", "split-tunneling", "vpn", "russia", "geoblock"],
+  "author": "by-sonic (https://t.me/sonic_h1)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/by-sonic/devunlock.git" },
+  "homepage": "https://github.com/by-sonic/devunlock#readme"
+}
